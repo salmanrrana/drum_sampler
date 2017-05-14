@@ -1,0 +1,53 @@
+html {
+  font-size: 10px;
+  background: url(http://68.media.tumblr.com/03f6361621705c29fcee6fff371b7a57/tumblr_ob76xmQNto1ug743po1_1280.jpg) bottom center;
+  background-size: cover;
+}
+body,html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Offside', sans-serif;
+  letter-spacing: .1em;
+}
+
+.keys {
+  display: flex;
+  flex: 1;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.key {
+  border-radius: 2.1rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem .5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: rgb(255,255,255);
+  background: rgba(0,0,0,0.6);
+  text-shadow: 0 0 .5rem black;
+}
+
+.playing {
+  transform: scale(1.2);
+  border-color: #ffc600;
+  box-shadow: 0 0 1px #F76F8E;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+  font-family: 'Offside', cursive;
+  color: rgba(255,255,255,.78);
+}
+
+.sound {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  color: #FFD9DA;
+}
