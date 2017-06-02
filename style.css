@@ -10,6 +10,21 @@ body,html {
   letter-spacing: .1em;
 }
 
+.header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #FFF;
+  top: 100px;
+}
+
+/*.title {
+  font-size: 20px
+}*/
+
+
 .keys {
   display: flex;
   flex: 1;
